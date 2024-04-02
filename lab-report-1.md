@@ -1,6 +1,6 @@
 # **Lab Report 1**
 ## **Basic Filesystem Commands Learned About**
-`cd` --- Using the command with no arguments:
+`cd` Using the command with no arguments:
 ```
 marit@doofenshmirtz MINGW64 ~ $ cd
 marit@doofenshmirtz MINGW64 ~
@@ -13,7 +13,8 @@ Using the command with a path to a directory as an argument:
 marit@doofenshmirtz MINGW64 ~ $ cd lecture1/
 marit@doofenshmirtz MINGW64 ~/lecture1 (main) $
 ```
-* This output is not an error. I called `cd lecture1/` while in `/c/Users/marit`. I successfully moved to the `lecture1` file. 
+This output is not an error. I called `cd lecture1/` while in `/c/Users/marit`. I successfully moved to the `lecture1` file. 
+
 ---
 Using the command with a path to a file as an argument:
 ```
