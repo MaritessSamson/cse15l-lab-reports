@@ -1,6 +1,7 @@
 # **Lab Report 1**
 ## **Basic Filesystem Commands Learned About**
-`cd` Using the command with no arguments:
+### `cd` command
+Using the command with no arguments:
 ```
 marit@doofenshmirtz MINGW64 ~ $ cd
 marit@doofenshmirtz MINGW64 ~
@@ -21,8 +22,11 @@ Using the command with a path to a file as an argument:
 marit@doofenshmirtz MINGW64 ~/lecture1 (main) $ cd Hello.java
 bash: cd: Hello.java: Not a directory
 ```
+This output is an error. The `cd` command does not take direct files as an argument. We are able to access the `Hello.java` file from the working directory `~/lecture1`.
 
-`ls` --- Using the command with no arguments:
+---
+### `ls` command
+Using the command with no arguments:
 ```
 marit@doofenshmirtz MINGW64 ~/lecture1 (main) $ ls
 Hello.class Hello.java messages/ README
@@ -51,7 +55,8 @@ marit@doofenshmirtz MINGW64 ~/lecture1 (main) $
 This output is not an error. The `ls` command can be used with a specified file. Because `Hello.java` is a file and has no further files and folders, the output is just a print of the file `Hello.java`.
 
 ---
-`cat` --- Using the command with no arguments:
+### `cat` command
+--- Using the command with no arguments:
 ```
 marit@doofenshmirtz MINGW64 ~/lecture1 (main)
 $ cat
