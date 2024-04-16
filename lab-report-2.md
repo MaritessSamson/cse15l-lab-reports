@@ -4,9 +4,9 @@
 
 # Part Two
 ---
-1. a
-2.  a
-3.  ![Image](lab-report-2-part3.3.png)
+1. ![Image](lab-report-2-part2.1.png)
+2.  ![Image](lab-report-2-part2.2.png)
+3.  ![Image](lab-report-2-part2.3.png)
 
 # Part Three
 ---
