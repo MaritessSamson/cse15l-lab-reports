@@ -6,7 +6,7 @@
 ---
 1. a
 2.  a
-3.  ![Image](./Screenshot 2024-04-16 155054.png)
+3.  ![Image](../lab-report-2-part3.3.png)
 
 # Part Three
 ---
