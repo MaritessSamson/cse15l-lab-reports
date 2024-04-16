@@ -4,7 +4,9 @@
 
 # Part Two
 ---
-
+1. a
+2.  a
+3.  ![Image](/Screenshot 2024-04-16 155054.png)
 
 # Part Three
 ---
