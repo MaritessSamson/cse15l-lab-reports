@@ -1,12 +1,12 @@
-# **Lab Report 1**
+d# **Lab Report 1**
 ## **Basic Filesystem Commands Learned About**
 ### `cd` command
 Using the command with no arguments:
 ```
-marit@doofenshmirtz MINGW64 ~ $ cd
+marit@doofenshmirtz MINGW64 ~/wavelet (main) $ cd
 marit@doofenshmirtz MINGW64 ~
 ```
-This output is not an error. I called `cd` while in `/c/Users/marit`. Calling `cd` without any arguments means that you will not move into a different directory. This means I was still in `/c/Users/marit` after calling the `cd` command with no arguments.
+This output is not an error. I called `cd` while in `/c/Users/marit/wavelet`. Calling `cd` without any arguments means that you will go to the parent directory. This means my working directory became `/c/Users/marit` after calling the `cd` command with no arguments. Note: Calling the `cd` command when already in the home directory.
 
 ---
 Using the command with a path to a directory as an argument:
