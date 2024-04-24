@@ -48,6 +48,7 @@ class ChatServer {
 **First example of using /add-message**
 ![Image](lab-report-2-part1.1.png) 
 This screenshot demonstrates the portion of the code using /add-message successfully. It passes through all of the `if` statements which then separates all of the arguments and saves the messages and users to a chat log. To the methods, the relevant arguments are in the strings, "everything's fine bruh", and "someGuy". The first string is assigned to the `message` variable and the second string is assigned to the `user` variable.  The variables change in order to make the full message and add it to the `chat log` variable.
+
 **Second example of using /add-message**
 ![Image](lab-report-2-part1.2.png)
 This screenshot also demonstrates the portion of the code using /add-message successfully. It passes through all of the `if` statements which then separates all of the arguments and saves the messages and users to a chat log. To the methods, the relevant arguments are in the strings, "hi, im watching Dune right now", and "ME!Maritess:)". The first string is assigned to the `message` variable and the second string is assigned to the `user` variable.  The variables change in order to make the full message and add it to the `chat log` variable.
