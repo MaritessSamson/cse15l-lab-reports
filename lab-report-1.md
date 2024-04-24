@@ -1,4 +1,4 @@
-d# **Lab Report 1**
+# **Lab Report 1**
 ## **Basic Filesystem Commands Learned About**
 ### `cd` command
 Using the command with no arguments:
