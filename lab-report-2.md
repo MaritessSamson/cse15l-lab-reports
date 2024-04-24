@@ -1,4 +1,6 @@
-# Part One
+# Lab Report 2
+## Servers and SSH Keys
+### Part One
 ---
 **My code for ChatServer**
 ```
@@ -52,12 +54,12 @@ This screenshot demonstrates the portion of the code using /add-message successf
 **Second example of using /add-message**
 ![Image](lab-report-2-part1.2.png)
 This screenshot also demonstrates the portion of the code using /add-message successfully. It passes through all of the `if` statements which then separates all of the arguments and saves the messages and users to a chat log. To the methods, the relevant arguments are in the strings, "hi, im watching Dune right now", and "ME!Maritess:)". The first string is assigned to the `message` variable and the second string is assigned to the `user` variable.  The variables change in order to make the full message and add it to the `chat log` variable.
-# Part Two
+### Part Two
 ---
 1. ![Image](lab-report-2-part2.1.png)
 2.  ![Image](lab-report-2-part2.2.png)
 3.  ![Image](lab-report-2-part2.3.png)
 
-# Part Three
+### Part Three
 ---
 All of week two and three are completely new content to me, but to be specific, I learned more about the 'ssh' command and connecting to remote servers. The `ssh` command allows for the programmer to operate from a different location on another server.
