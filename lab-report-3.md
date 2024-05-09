@@ -2,7 +2,7 @@
 # Bugs and Commands
 ---
 ## Part 1 : Bugs
-` static int[ ] reversed (int [ ] arr) `
+`static int[ ] reversed (int [ ] arr)`
 1. Failure-inducing input for the buggy program
 ```
 @Test
