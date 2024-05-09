@@ -20,8 +20,11 @@ public void testReversedPass(){
 }
 ```
 3.   Systems
-    [NEED TO GET SCREENSHOTS OF CODE]
-4.   The bug
+    Fail
+    ![Image](lab-report-part3FAIL.png)
+    Pass
+    ![Image](lab-report-part3PASS.png)
+5.   The bug
 ```
 static int [] reversed(int[] arr) {
   int [ ] newArray = new int[arr.length];
