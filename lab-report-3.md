@@ -53,6 +53,7 @@ I chose to research the `grep` command.
 1. The `grep -n` command shows the matched lines and the line numbers that a given pattern appears on.
 
 > Example 1:
+
 ```
 marit@doofenshmirtz MINGW64 ~/docsearch (main)
 $ grep -n "binge drinking" technical/government/alcohol_problems/*.txt
@@ -62,6 +63,7 @@ technical/government/alcohol_problems/Session4-PDF.txt:812:strategies that are a
 ```
 
 > Example 2:
+
 ```
 marit@doofenshmirtz MINGW64 ~/docsearch (main)
 $ grep -n "transgene integration" technical/biomed/*.txt
@@ -75,6 +77,7 @@ In the examples shown above, the outputs show where the pattern appears in the s
 2. The `grep -i` command shows lines with matching criteria while ignoring upper and lowercasing.
 
 > Example 1:
+
 ```
 marit@doofenshmirtz MINGW64 ~/docsearch (main)
 $ grep -i "terrorist attack" technical/911report/*.txt
@@ -85,7 +88,8 @@ technical/911report/chapter-12.txt:            PROTECT AGAINST AND PREPARE FOR T
 ...
 ```
 
-> Example 2: 
+> Example 2:
+
 ```
 marit@doofenshmirtz MINGW64 ~/docsearch (main)
 $ grep -i "counterterrorism" technical/911report/*.txt
@@ -100,6 +104,7 @@ In these examples of the command, the computer takes the input and finds matchin
 3. The `grep -c` command prints each file within the given file and the amount of times the given pattern shows up in the file.
 
 > Example 1:
+
 ```
 marit@doofenshmirtz MINGW64 ~/docsearch (main)
 $ grep -c "binge drinking" technical/government/alcohol_problems/*.txt
@@ -111,6 +116,7 @@ technical/government/alcohol_problems/Session4-PDF.txt:1
 ```
 
 > Example 2:
+
 ```
 marit@doofenshmirtz MINGW64 ~/docsearch (main)
 $ grep -c "transgene integration" technical/biomed/*.txt
@@ -131,6 +137,7 @@ In these two examples, the command takes the pattern inputted and finds how many
 
 4. The `grep -l` command 
 > Example 1:
+
 ```
 marit@doofenshmirtz MINGW64 ~/docsearch (main)
 $ grep -l "binge drinking" technical/government/alcohol_problems/*.txt
@@ -138,6 +145,7 @@ technical/government/alcohol_problems/Session2-PDF.txt
 technical/government/alcohol_problems/Session4-PDF.txt
 ```
 > Example 2:
+
 ```
 marit@doofenshmirtz MINGW64 ~/docsearch (main)
 $ grep -l "transgene integration" technical/biomed/*.txt
