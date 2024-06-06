@@ -10,9 +10,10 @@
 
 4. Additional information:
 
-*
-*
-*
+* The `list-examples-grader` file is used. We are editting the bash script, `grade.sh`.
+* The `grade.sh` file clones a student-submitted Github repo, checks for a `ListExamples` java file, and compiles the code. After compiling the code, it will run it with the test cases and return feedback based on the test case results. 
+* The command line ran to get the bug was `bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-compile-error.git`
+* The `echo` command has to be deleted from the `grade.sh` file on line 41. This fixes the bug since the exit code will continue to depend on the file compilation.
 
 **Part 2**
 Learning Vim was probably the coolest thing we learned in the second half of the quarter. I just didn't expect to be able to do so much from the terminal, much less edit files. I think it's very convenient, especially the shortcuts like the one to skip lines in files that are longer and more tedious to scroll through.
